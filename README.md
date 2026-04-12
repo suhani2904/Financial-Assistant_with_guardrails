@@ -592,17 +592,3 @@ VERDICT: PROMPT REJECTED
 **Stateless pipeline:** Each `run_full_pipeline()` call is independent. Multi-turn conversations are not supported in the current implementation.
 
 ---
-
-## License
-
-MIT License — see `LICENSE` for details.
-
----
-
-## Acknowledgements
-
-- [FareedKhan-dev/agentic-guardrails](https://github.com/FareedKhan-dev/agentic-guardrails) — architecture inspiration
-- [LangChain](https://docs.langchain.com) — agent framework and `RunnableParallel`
-- [LangGraph](https://langchain-ai.github.io/langgraph/) — `StateGraph` and ReAct loop
-- [Groq](https://console.groq.com) — free, fast LLM inference
-- [SEC EDGAR](https://www.sec.gov/edgar) — public financial filings database
