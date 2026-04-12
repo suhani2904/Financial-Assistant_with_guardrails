@@ -309,16 +309,13 @@ Every response that passes all output guardrails automatically receives a mandat
 ## Project Structure
 
 ```
-financial-assistant-aegis/
+financial-assistant-with-guardrails/
 │
-├── main.ipynb                            ← Full pipeline notebook
+├── src/
+main.ipynb                            ← Full pipeline notebook
 │
 ├── sec-edgar-filings/                    ← Created by download cell
-│   └── sec-edgar-filings/
-│       └── NVDA/
-│           └── 10-K/
-│               └── 0001045810-26-000021/
-│                   └── full-submission.txt   ← 11.4M char annual report
+    └── full-submission.txt   ← 11.4M char annual report
 │
 ├── chroma_db/                            ← Created by build_knowledge_base()
 │   └── ...                               ← 27,810 embedded chunks
