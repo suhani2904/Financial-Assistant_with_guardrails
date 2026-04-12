@@ -1,0 +1,10 @@
+langchain
+chromadb
+python-dotenv
+langchain_community
+langchain_groq
+sec-edgar-downloader
+langgraph
+sentence-transformers
+pydantic
+langchain_core
