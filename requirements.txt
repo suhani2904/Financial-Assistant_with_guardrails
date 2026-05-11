@@ -1,0 +1,16 @@
+langchain
+chromadb
+python-dotenv
+langchain_community
+langchain_groq
+langgraph
+sentence-transformers
+pydantic
+langchain-core
+sec-api 
+beautifulsoup4 
+requests
+langchain-chroma
+langchain-huggingface
+streamlit
+langgraph-checkpoint-sqlite
